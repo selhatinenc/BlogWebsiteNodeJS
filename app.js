@@ -37,7 +37,7 @@ app.locals.isActiveRoute = isActiveRoute;
 
 // Router'ı içe aktarın
 const mainRouter = require("./server/routes/main");
-const mainRouter = require("./server/routes/admin");
+const admin = require("./server/routes/admin");
 
 // Router'ı middleware olarak kullanın
 app.use("/", mainRouter);
